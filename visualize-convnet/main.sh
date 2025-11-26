@@ -61,7 +61,7 @@ else
   echo "VGG16 model has already been downloaded and converted."
 fi
 
-yarn install
+yarn
 
 # Clean up old files.
 rm -rf dist/activation dist/filters
@@ -87,4 +87,3 @@ node main.js \
 
 echo "Launching parcel server and opening page in browser..."
 yarn watch
-#npm run watch
