@@ -14,6 +14,7 @@
 
 다음 명령을 실행합니다:
 ```sh
+node : 14.17.0
 yarn visualize
 ```
 
